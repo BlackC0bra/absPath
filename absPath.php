@@ -1,10 +1,10 @@
 <?php
 /**
-* Ïðèâåäåíèå ññûëêè ê àáñîëþòíîìó URI
+* ÐŸÑ€Ð¸Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ ÑÑÑ‹Ð»ÐºÐ¸ Ðº Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ð¾Ð¼Ñƒ URI
 *
-* @param string $link ññûëêà (àáñîëþòíûé URI, àáñîëþòíûé ïóòü íà ñàéòå, îòíîñèòåëüíûé ïóòü)
-* @param string $base áàçîâûé URI (ìîæíî áåç "http://")
-* @return string àáñîëþòíûé URI ññûëêè
+* @param string $link ÑÑÑ‹Ð»ÐºÐ° (Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ñ‹Ð¹ URI, Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ñ‹Ð¹ Ð¿ÑƒÑ‚ÑŒ Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ, Ð¾Ñ‚Ð½Ð¾ÑÐ¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ð¹ Ð¿ÑƒÑ‚ÑŒ)
+* @param string $base Ð±Ð°Ð·Ð¾Ð²Ñ‹Ð¹ URI (Ð¼Ð¾Ð¶Ð½Ð¾ Ð±ÐµÐ· "http://")
+* @return string Ð°Ð±ÑÐ¾Ð»ÑŽÑ‚Ð½Ñ‹Ð¹ URI ÑÑÑ‹Ð»ÐºÐ¸
 */
 function uri2url($link, $base)
 {
@@ -64,7 +64,7 @@ echo uri2url("../../test.html", "https://www.ya.ru/page1/page2/page3/");
 echo "\n";
 echo uri2url("./test.html", "https://www.ya.ru/page1/page2/page3/"); 
 echo "\n";
-echo uri2url("http://www.google.com?q=123àáâ", "http://www.ya.ru/page1/page2/");
+echo uri2url("http://www.google.com?q=123Ð°Ð±Ð²", "http://www.ya.ru/page1/page2/");
 echo "\n";
 
 ?>
